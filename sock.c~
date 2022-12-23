@@ -1,0 +1,12 @@
+#include <arpa/net.h>
+#include <netinet/in.h>
+#include <stdio.h>
+#include <sys/socket.h>
+
+int
+main()
+{
+
+  struct sockaddr_in sin;
+  sin.sin_family = AF_INET;
+}

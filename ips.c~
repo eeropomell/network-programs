@@ -1,0 +1,20 @@
+#include <arpa/inet.h>
+#include <stdio.h>
+
+/*
+  get info about ip address:
+  - netmask
+  - netmask length
+  - host mask
+  - host mask length
+  - network address
+  - first usable host address
+  - last usable host address
+  - network broadcast address
+  - total host addresses
+  - usable host addresses
+ */
+
+int
+main()
+{}
