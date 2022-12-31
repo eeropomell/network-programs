@@ -1,9 +1,10 @@
+
 #include <arpa/inet.h>
+
 #include <netinet/in.h>
 #include <stdio.h>
 #include <string.h>
 #include <sys/socket.h>
-
 
 int
 main(int argc, char** argv)
@@ -27,6 +28,3 @@ main(int argc, char** argv)
     printf("Received: %s", recvb);
   }
 }
-
-
-
