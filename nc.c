@@ -4,6 +4,11 @@
 #include <string.h>
 #include <sys/socket.h>
 
+/*
+  netcat
+
+  so far it just either listens or sends data
+*/
 
 int
 main(int argc, char** argv)
@@ -27,6 +32,3 @@ main(int argc, char** argv)
     printf("Received: %s", recvb);
   }
 }
-
-
-
