@@ -6,8 +6,7 @@
 ## Depending on the subnet size eventually the router will run out of ip addresses
 
 INTERFACE=$1
-echo $INTERFACE
-for i in {1..254} # $ for a /24 subnet
+for i in {1..254} # for a /24 subnet
 do
     ## incase the router is keeping track of MAC or hostname (for example there could only be one ip address on a MAC/hostname)
     macchanger $INTERFACE -r
